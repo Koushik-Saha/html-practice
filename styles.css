@@ -1,0 +1,238 @@
+/**
+ * Copyright 2015 Google Inc. All Rights Reserved.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+.demo-ribbon {
+  width: 100%;
+  height: 40vh;
+  background-color: white;
+  -webkit-flex-shrink: 0;
+      -ms-flex-negative: 0;
+          flex-shrink: 0;
+}
+
+.demo-main {
+  -webkit-flex-shrink: 0;
+      -ms-flex-negative: 0;
+          flex-shrink: 0;
+}
+
+.demo-header .mdl-layout__header-row {
+  padding-left: 40px;
+}
+
+.demo-container {
+  max-width: 1600px;
+  width: calc(100% - 16px);
+  margin: 0 auto;
+}
+
+.demo-content {
+  border-radius: 2px;
+  padding: 80px 56px;
+  margin-bottom: 80px;
+}
+
+.demo-layout.is-small-screen .demo-content {
+  padding: 40px 28px;
+}
+
+.demo-content h3 {
+  margin-top: 48px;
+}
+
+.demo-footer {
+  padding-left: 40px;
+}
+
+.demo-footer .mdl-mini-footer--link-list a {
+  font-size: 13px;
+}
+
+.button_block{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background: #2D303E!important;
+  border-radius: 8px!important;
+  height: 64px!important;
+  justify-content: space-between;
+}
+
+.block_flex{
+  display: flex;
+  align-items: center;
+  margin-left: 4%;
+}
+
+.block_flex_button{
+  display: flex;
+  align-items: center;
+  margin-right: 4%;
+}
+
+.clock{
+  margin-left: 15%;
+  color: white;
+  font-weight: bold;
+}
+
+.icon_color{
+  color: #828282;
+  font-size: 26px!important;
+}
+
+.icon_plus_color{
+  color: #FF6600;
+  font-size: 32px!important;
+}
+
+.ribbon_des{
+  background: #1F1D2B;
+}
+
+.menu_icons{
+  color: white!important;
+  background: #2D303E!important;
+  padding: 8% !important;
+  border-radius: 8px!important;
+}
+
+.play_text{
+  color: white!important;
+  font-size: 24px!important;
+  font-weight: bold;
+}
+
+.display_flex{
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  background: #252836;
+}
+
+.mdl-list__item{
+  padding: 2px 16px 18px 16px!important;
+}
+
+.clock_block{
+  display: flex!important;
+  justify-content: center!important;
+  padding: 2% 4% !important;
+  background: #2D303E!important;
+  flex-direction: column;
+  color: white!important;
+  border-radius: 8px!important;
+  align-items: center!important;
+}
+
+.clock_block_flex{
+  margin-top: 6%;
+  display: flex!important;
+  flex-direction: row!important;
+  margin-left: 4%!important;
+  justify-content: space-between;
+}
+
+.menu_value_left{
+  text-align: left;
+}
+
+.menu_value_right{
+  text-align: right;
+}
+
+.block_flex_button_second{
+  display: flex;
+  align-items: center;
+  margin-right: 4%;
+  border-radius: 50%!important;
+  background: #FF6600!important;
+  padding: 2%!important;
+}
+
+.icon_plus_color_second{
+  color: white;
+  font-size: 12px!important;
+}
+
+.block_flex_second{
+  display: flex;
+  align-items: center;
+  margin-left: 4%;
+  width: 50% !important;
+}
+
+.clock_second{
+  margin-left: 6%;
+  color: white;
+  font-size: 14px!important;
+}
+
+.logout_button{
+  width: 100%;
+  border-radius: 8px!important;
+  height: 6vh;
+  background: #FF6600!important;
+  color: white!important;
+  display: flex!important;
+  align-items: center!important;
+  justify-content: center!important;
+}
+
+.clock_second_search{
+  margin-left: 6%;
+  color: #5C5F6C;
+  font-size: 14px!important;
+}
+
+.button_block_search{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background: #2D303E!important;
+  border-radius: 8px!important;
+  height: 50px!important;
+  justify-content: space-between;
+}
+
+.clock_block_flex_close{
+  margin-top: 6%;
+  display: flex!important;
+  flex-direction: row!important;
+  margin-right: 4%!important;
+  justify-content: flex-end;
+}
+
+.main_drawer{
+  background: #1F1D2B!important;
+  width: 88vw!important;
+}
+
+.sub_main_drawer{
+  padding: 1% 4% 0 3%!important;
+}
+
+.ribbon_des_second{
+  background: #22242D;
+}
+
+.button_block_second{
+  height: 50px!important;
+}
+
+.button_seacon{
+  height: 25vh!important;
+}
